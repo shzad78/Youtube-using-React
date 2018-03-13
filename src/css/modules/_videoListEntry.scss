@@ -1,0 +1,14 @@
+.video-list-entry {
+  .media-body{
+    padding: 10px;
+  }
+  .media-heading {
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+  .media-description {
+    font-weight: 400;
+  }
+}
